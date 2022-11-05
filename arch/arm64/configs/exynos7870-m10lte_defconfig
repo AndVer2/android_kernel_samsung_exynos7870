@@ -449,7 +449,9 @@ CONFIG_TIMA=y
 # CONFIG_TIMA_RKP is not set
 # CONFIG_UH_RKP is not set
 # CONFIG_TIMA_TEST_INFRA is not set
-# CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE is not set
+CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE=y 
+CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES="exynos7870-m10lte_swa_open_00 exynos7870-m10lte_swa_open_01 exynos7870-m10lte_swa_open_02 exynos7870-m10lte_sea_open_03 exynos7870-m10lte_sea_open_04"
+# CONFIG_EXYNOS_DTBTOOL is not set
 
 #
 # Userspace binary formats
